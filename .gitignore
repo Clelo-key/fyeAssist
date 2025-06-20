@@ -1,0 +1,75 @@
+# =====================
+# 依赖目录
+# =====================
+node_modules/
+bower_components/
+jspm_packages/
+.vendor/
+
+# =====================
+# 构建产物
+# =====================
+dist/
+build/
+out/
+public/
+coverage/
+.cache/
+temp/
+*.log
+
+# =====================
+# 环境配置
+# =====================
+.env
+.env.*
+!.env.example
+.credentials
+config.local.js
+
+# =====================
+# IDE/编辑器缓存
+# =====================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# =====================
+# 测试报告
+# =====================
+.junit/
+test-results/
+
+# =====================
+# 个人配置
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.history
+
+# =====================
+# 自定义构建工具
+# =====================
+webpack-cache/
+parcel-cache/
+
+# =====================
+# 本地开发服务器
+# =====================
+*.pid
+*.seed
+*.pid.lock
+
+# =====================
+# 可选：敏感文件
+# =====================
+# secrets.json
+# keys.js

@@ -1,0 +1,22 @@
+{
+  "name": "fye-assist",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --experimental-specifier-resolution=node build/index.js"
+  },
+  "packageManager": "pnpm@10.7.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.53",
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.58",
+    "typescript": "^5.8.3"
+  }
+}
